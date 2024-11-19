@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="./pesquisar_filme.css" />
+    <title>Cadastro de Filmes</title>
+  </head>
+  <body>
+    <h1 id="titulo_h1" class="titulo_h1">
+      Digite o título do Filme que deseja procurar
+    </h1>
+    <div id="pesquisar_filme" class="pesquisar_filme">
+      <input
+        type="text"
+        name="titulo"
+        id="titulo_filme"
+        class="titulo_filme"
+        placeholder="Digite o título do filme"
+        required
+      />
+      <button id="botao_inicio" class="botao_inicio">Voltar</button>
+    </div>
+    <section id="resultado"></section>
+    <script src="./pesquisar_filme.js"></script>
+  </body>
+</html>
